@@ -23,13 +23,14 @@ class Shoe
     @size
   end
  
-  def genre=(genre)
-    @genre = genre
+  def material=(material)
+    @material = material
   end
  
-  def genre
-    @genre
+  def material
+    @material
   end
+  
  
   def turn_page
     puts "Flipping the page...wow, you read fast!"
