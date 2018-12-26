@@ -39,6 +39,7 @@ class Shoe
     @condition
   end  
  
+ def cobble 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
