@@ -31,6 +31,13 @@ class Shoe
     @material
   end
   
+  def condition=(condition)
+    @condition = condition
+  end
+  
+  def condition
+    @condition
+  end  
  
   def turn_page
     puts "Flipping the page...wow, you read fast!"
