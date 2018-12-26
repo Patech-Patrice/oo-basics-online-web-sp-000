@@ -1,4 +1,4 @@
-class Shoe
+class Shoele
   def initialize(title)
     @title = title
   end
